@@ -69,10 +69,6 @@ public class MainChartController extends HttpServlet {
 
 		ArrayList<DataRowBean> listaValores = new ArrayList<>();
 		map.forEach((key, value) -> listaValores.add(new DataRowBean(key, value)));
-//		for(Entry<String, Integer> entry : map.entrySet()){
-//			listaValores.add(new DataRowBean(entry.getKey(), entry.getValue()));
-//		}
-		
 		
 		return listaValores;
 	}
