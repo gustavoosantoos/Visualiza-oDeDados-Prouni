@@ -1,0 +1,10 @@
+@CHARSET "ISO-8859-1";
+
+.div-chart{
+	margin: 2%;
+	max-width: 95%;
+}
+
+.div-pie-chart{
+	padding-left: 15%;
+}
