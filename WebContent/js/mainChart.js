@@ -16,8 +16,7 @@ $(document).ready(function load(){
 		method: "get",
 		url: "MainChartController",
 		cache: false,
-        async: false,
-        data: {universidade: "null"}
+        async: false
 	}).done(function(responseJson){
 		setData(responseJson);
 		$("#labelUniversidade").text("GERAL");

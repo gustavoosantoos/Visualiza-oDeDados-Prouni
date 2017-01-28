@@ -3,6 +3,16 @@ package com.prouni.datavisualization.bean;
 public class DataRowBean {
 	private String campo;
 	private int valor;
+	
+	public DataRowBean(){
+		super();
+	}
+	
+	public DataRowBean(String campo, int valor){
+		this.campo = campo;
+		this.valor = valor;
+	}
+	
 	public String getCampo() {
 		return campo;
 	}
